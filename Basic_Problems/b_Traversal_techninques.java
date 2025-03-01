@@ -6,7 +6,6 @@ public class b_Traversal_techninques {
         int data;
         BNode left;
         BNode right;
-
         BNode(int data) {
             this.data = data;
             this.left = null;

@@ -39,7 +39,7 @@ public class a_Initialisation_Build_tree {
     public static void main(String[] args) {
         int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1};
         BinTree tree = new BinTree();
-
+        BinTree.ind = 0;
         Node root = BinTree.buildTree(nodes);
         System.out.println(root.data+" ");
 
